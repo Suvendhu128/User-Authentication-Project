@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Password</title>
+    <script defer src="reset.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="mainBox">
+        <label id="mailLabel" for="email">OTP has been sent to your registered Email : <br>
+             <span id="mail"></span></label><br><br>
+
+        <label for="otp">Enter OTP</label><br>
+        <input type="number" name="otp" id="otp"><br><br>
+
+        <label for="password">Enter New Password</label><br>
+        <input type="password" name="password" id="password"><br><br>
+
+        <button id="resetPass-btn">Reset Password</button>
+        <button><a href="index.html">Go Back</a></button>
+    </div>
+</body>
+
+</html>
